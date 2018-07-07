@@ -1,0 +1,50 @@
+marquee{
+  font-size: 30px;
+  color:#066787;
+  font-weight: bold;
+  padding-top: 70;
+}
+#inp{
+  height:22px;
+  width:250px;
+}
+#div1{
+ height:400px;
+ width:200px;
+ padding-left:500px;
+ padding-top:100px;
+}
+
+body{
+ background-repeat: no-repeat;
+ background-size: 1300px 700px;
+}
+legend{
+ font-size:28px;
+ font-weight:bold;
+
+}
+#b01{
+ font-size: 15px;
+ height:auto;
+ width:auto;
+ background-color: white;
+ border-radius: 8px;
+ color: black;
+ border: 3px solid #008CBA;
+ text-align:center;
+ padding:5px 15px;
+}
+#b01:hover {
+ background-color: #008CBA;
+ color: white;
+}
+
+input{
+height:auto;
+width:auto;
+border: 3px solid #008CBA;
+}
+p{
+background-color:red;
+}

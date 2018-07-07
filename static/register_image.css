@@ -1,0 +1,19 @@
+#i1{
+  height:50px;
+  width: 50px;
+}
+#i1:hover {
+  border: 3px solid #008CBA;
+}
+
+#div1{
+ height:400px;
+ width:600px;
+ padding-left:300px;
+ padding-top:100px;
+}
+
+body{
+ background-repeat: no-repeat;
+ background-size: 1300px 700px;
+}

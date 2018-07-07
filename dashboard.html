@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>My Page</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'register_dash.css') }}">
+</head>
+
+<body background="{{ url_for('static', filename = 'bg2.jpg') }}">
+<div id='div1'>
+<form action='http://0.0.0.0:9999/result' method="POST">
+<h3>Select company:</h3><br>
+<label class="container">Apple
+  <input type="radio" checked="checked" name="company" value="Apple">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Tcs
+  <input type="radio" name="company" value="Tcs">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Infosis
+  <input type="radio" name="company" value="Infosis">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Reliance
+  <input type="radio" name="company" value="Reliance">
+  <span class="checkmark"></span>
+</label>
+<input type="text" name="open" placeholder='Open' required><br><br>
+<input type="text" name="high" placeholder='High' required><br><br>
+<input type="text" name="low" placeholder='Low' required><br><br>
+<input type="text" name="adj" placeholder='Adj close' required><br><br>
+<input type="text" name="volume" placeholder='volume' required>
+<br><br>
+<input id="b01" type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

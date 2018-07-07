@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>My Page</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'register.css') }}">
+</head>
+
+<body background="{{ url_for('static', filename = 'bg2.jpg') }}">
+<h1 style="color:#066787">Face verification on login please be prepared</h1>
+<div id='div1'>
+<form action='http://0.0.0.0:9999/dashboard' method="POST">
+<fieldset>
+<legend>Login </legend>
+<br><br>
+<input id='inp' type='email' name='email' placeholder='Enter email here' required>
+<br><br>
+<input id='inp' type='password' name='password' placeholder='Enter password here' required>
+<br><br>
+<input id='b01' type='submit' value="Login">
+</fieldset>
+</form>
+</div>
+</body>
+</html>

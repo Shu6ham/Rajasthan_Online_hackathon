@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>My Page</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'register_res.css') }}">
+</head>
+<body background="{{ url_for('static', filename = 'bg3.jpg') }}">
+  <section class="container">
+      <img class="one" src="{{ url_for('static', filename = 'reliance.png') }}">
+      <div class="two"><h1>Predicted Price: {{ variable }}</h1></div>
+  </section>
+</body>
+</html>
